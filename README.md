@@ -7,7 +7,10 @@ ProduKey as well. Enables RemoteRegistry service if required.
 Originally inspired by this script: https://gallery.technet.microsoft.com/scriptcenter/Get-product-keys-of-local-83b4ce97
 
 Note that giving credentials with ProduKey requires running the process locally with those credentials, so they must
-work on the local machine.
+work on the local machine. 
+
+The reason ProduKey was included is because it's great at getting keys SLP doesn't have registered, but as it can't get
+anything for VLK/MAK, querying SLP is still needed.  
 
 **.PARAMETER Computername**  
    Strings. Name of the local or remote system/s. You may give multiple computernames.
