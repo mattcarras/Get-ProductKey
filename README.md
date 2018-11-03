@@ -10,7 +10,7 @@ Note that giving credentials with ProduKey requires running the process locally 
 work on the local machine.
 
 **.PARAMETER Computername**  
-   Strings. Name of the local or remote system/s.
+   Strings. Name of the local or remote system/s. You may give multiple computernames.
 	
 **.PARAMETER ShowOnlyValid**  
    Switch. Output only fully valid entries (pingable, has WMI access).
