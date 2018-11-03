@@ -4,7 +4,7 @@ Powershell cmdlet to retrieve product keys and OS information from local or remo
 Retrieves the product key and OS information from a local or remote system/s using WMI and/or ProduKey. Attempts to
 decode the product key from the registry, shows product keys from SoftwareLicensingProduct (SLP), and attempts to use
 ProduKey as well. Enables RemoteRegistry service if required.
-Originally based on this script: https://gallery.technet.microsoft.com/scriptcenter/Get-product-keys-of-local-83b4ce97
+Originally inspired by this script: https://gallery.technet.microsoft.com/scriptcenter/Get-product-keys-of-local-83b4ce97
 
 Note that giving credentials with ProduKey requires running the process locally with those credentials, so they must
 work on the local machine.
