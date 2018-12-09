@@ -31,7 +31,7 @@ anything for VLK/MAK, querying SLP is still needed.
   Switch. Skip attempting to use ProduKey for additional keys (requires RemoteRegistry access for remote machines).
 
 **.PARAMETER ProduKeyPath**  
-  String. Path to ProduKey.exe, including name of executable. Default: ".\ProduKey.exe" (current directory)
+  String. Path to ProduKey.exe and its working directory. Default: ".\" (current directory)
 
 **.PARAMETER PromptForCredentials**  
   Switch. Prompt for secure credentials to use.
