@@ -12,8 +12,6 @@ work on the local machine.
 The reason ProduKey was included is because it's great at getting keys SLP doesn't have registered, but as it can't get
 anything for VLK/MAK, querying SLP is still needed.  
 
-**NOTE: Requires PowerShell v2.0 or higher.**
-
 **.PARAMETER Computername**  
    Strings. Name of the local or remote system/s. You may give multiple computernames.
 	
