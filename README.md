@@ -10,7 +10,7 @@ Note that giving credentials with ProduKey requires running the process locally 
 work on the local machine. 
 
 The reason ProduKey was included is because it's great at getting keys SLP doesn't have registered, but as it can't get
-anything for VLK/MAK, querying SLP is still needed.  
+anything for VLK/MAK, querying SLP (and other WMI classes) is still needed.  
 
 **.PARAMETER Computername**  
    Strings. Name of the local or remote system/s. You may give multiple computernames.
@@ -24,6 +24,9 @@ anything for VLK/MAK, querying SLP is still needed.
 **.PARAMETER SkipRegProductKey**  
   Switch. Skip attempting to decode the product key from the registry (non-VLK/MAK only, requires RemoteRegistry if remote).
 
+**.PARAMETER SkipDefaultProductKeys**
+  Switch. Skip attempting to decode the default product keys from the registry.
+		
 **.PARAMETER SkipOEMInfo**  
   Switch. Skip outputting OEM info from WMI / registry.
 
