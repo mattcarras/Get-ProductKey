@@ -24,7 +24,7 @@ anything for VLK/MAK, querying SLP (and other WMI classes) is still needed.
 **.PARAMETER SkipRegProductKey**  
   Switch. Skip attempting to decode the product key from the registry (non-VLK/MAK only, requires RemoteRegistry if remote).
 
-**.PARAMETER SkipDefaultProductKeys**
+**.PARAMETER SkipDefaultProductKeys**  
   Switch. Skip attempting to decode the default product keys from the registry.
 		
 **.PARAMETER SkipOEMInfo**  
